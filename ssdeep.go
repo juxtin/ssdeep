@@ -19,9 +19,9 @@ var (
 
 const (
 	rollingWindow uint32 = 7
-	blockMin             = 3
+	blockMin             = 2
 	spamSumLength        = 64
-	minFileSize          = 4096
+	minFileSize          = 1
 	hashPrime     uint32 = 0x01000193
 	hashInit      uint32 = 0x28021967
 	b64String            = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
